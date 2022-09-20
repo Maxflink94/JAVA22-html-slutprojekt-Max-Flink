@@ -9,6 +9,13 @@ body{
     background: linear-gradient( #24252aa9,#24252A);
 }
 
+h1{
+    font-size: 50px;
+}
+.start-para{
+    font-size: 30px;
+}
+
 li, a, p{
     text-decoration: none;
 }
@@ -27,6 +34,7 @@ li, a, p{
 
 .nav-links{
     list-style: none;
+    font-size: x-large;
 }
 
 .nav-links li{
@@ -51,6 +59,7 @@ li, a, p{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    border-bottom: 1px whitesmoke solid;
 }
 
 .fa{
@@ -90,13 +99,13 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 30%;
+    margin-left: 29%;
 }
 .projekt-right{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-right: 30%;
+    margin-right: 29%;
 }
 
 footer{
@@ -116,4 +125,24 @@ footer{
 .footer-copy{
     float: right;
     margin-right: 20px;
+}
+
+.about{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.about-me{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 29%;
+    line-height: 25px
+}
+.info-h2{
+    margin-bottom: 40px;
+}
+.info-para{
+    margin-bottom: 20px;
 }
