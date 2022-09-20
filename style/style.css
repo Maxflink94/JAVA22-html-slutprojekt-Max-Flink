@@ -114,6 +114,7 @@ footer{
     align-items: center;
     padding: 15px 10%;
     position: fixed bottom;
+    border-top: whitesmoke 1px solid;
 }
 
 .footer-links{
