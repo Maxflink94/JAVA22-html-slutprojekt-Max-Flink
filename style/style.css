@@ -2,8 +2,11 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #24252a;
+    /* background-color: #24252a; */
     color: whitesmoke;
+}
+body{
+    background: linear-gradient( #24252aa9,#24252A);
 }
 
 li, a, p{
@@ -84,10 +87,16 @@ main{
     align-items: center;
 }
 .projekt-left{
-    margin-left: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 30%;
 }
 .projekt-right{
-    margin-right: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 30%;
 }
 
 footer{
