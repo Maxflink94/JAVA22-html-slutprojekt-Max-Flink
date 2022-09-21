@@ -4,24 +4,27 @@
     padding: 0;
     /* background-color: #24252a; */
     color: whitesmoke;
-}
-body{
-    background: linear-gradient( #24252aa9,#24252A);
+    font-family: Helvetica, sans-serif;
 }
 
-h1{
+body {
+    background: linear-gradient(#24252aa9, #24252A);
+}
+
+h1 {
     font-size: 50px;
 }
-.start-para{
+
+.start-para {
     font-size: 30px;
     margin-bottom: 3%;
 }
 
-li, a, p{
+li, a, p {
     text-decoration: none;
 }
 
-.nav-brand{
+.nav-brand {
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -35,40 +38,70 @@ li, a, p{
     margin-right: auto;
 }
 
-.nav-links{
+.nav-links {
     list-style: none;
     font-size: x-large;
 }
 
-.nav-links li{
+.nav-links li {
     display: inline-block;
     padding: 0 20px;
 }
 
-.nav-links li a{
+.nav-links li a {
     transition: all 0.3s ease 0s;
 }
-.nav-citat{
+
+/* .nav-citat {
     font-style: italic;
     font-size: x-large;
     padding-right: 60px;
-}
+} */
 
-.nav-links li a:hover{
+.nav-links li a:hover {
     color: black;
 }
 
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     border-bottom: 1px whitesmoke solid;
 }
 .navbar-logo{
-    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+.navbar-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.navbar-links{
+    position: relative;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.navbar-links::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 3px;
+    border-radius: 4px;
+    background-color: whitesmoke;
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    transition: transform .2s ease-in-out;
+}
+.navbar-links:hover::before {
+    transform: scaleX(1);
 }
 
-.fa{
+.fa {
     padding: 20px;
     font-size: 30px;
     width: 30px;
@@ -77,47 +110,54 @@ li, a, p{
     border-radius: 50%;
 }
 
-.start-rubrik{
+.start-rubrik {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+
 }
-.start-h1{
+
+.start-h1 {
     margin: 40% 0 15% 0;
 }
 
-main{
+main {
     margin: 5% 15%;
 }
-.start-img{
+
+.start-img {
     border-radius: 50%;
 }
-.start-projekt-container-1{
+
+.start-projekt-container-1 {
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
-.start-projekt-container-2{
+
+.start-projekt-container-2 {
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
-.projekt-left{
+
+.projekt-left {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-left: 29%;
 }
-.projekt-right{
+
+.projekt-right {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-right: 29%;
 }
+
 /* Footer  */
-footer{
+footer {
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -126,63 +166,74 @@ footer{
     border-top: whitesmoke 1px solid;
 }
 
-.footer-links{
+.footer-links {
     list-style: none;
 }
-.footer-logo{
+
+.footer-logo {
     margin-right: auto;
 }
-.footer-copy{
+
+.footer-copy {
     float: right;
     margin-right: 20px;
 }
+
 /* Info */
-.about{
+.about {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 
-.about-me{
+.about-me {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-right: 29%;
     line-height: 25px
 }
-.info-h2{
+
+.info-h2 {
     margin-bottom: 40px;
 }
-.info-para{
+
+.info-para {
     margin-bottom: 20px;
+    text-align: center;
 }
+
 /* Projekt */
-.projekt-container{
+.projekt-container {
     align-items: center;
 }
 
-.projekt-h1{
+.projekt-h1 {
     text-align: center;
     margin-bottom: 3%;
 }
-.projekt-img-main{
+
+.projekt-img-main {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
-.projekt-img-main-para{
+
+.projekt-img-main-para {
     font-size: 1.3rem;
     margin: 5%;
     text-align: center;
 }
-.projekt-container-1{
+
+.projekt-container-1 {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     margin: 3% 0%;
     text-align: center;
 }
-.projekt-container-2{
+
+.projekt-container-2 {
     display: flex;
     justify-content: flex-start;
     align-items: center;
