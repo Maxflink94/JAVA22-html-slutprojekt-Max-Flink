@@ -14,6 +14,7 @@ h1{
 }
 .start-para{
     font-size: 30px;
+    margin-bottom: 3%;
 }
 
 li, a, p{
@@ -29,6 +30,8 @@ li, a, p{
 }
 
 .nav-logo {
+    width: 150px;
+    height: auto;
     margin-right: auto;
 }
 
@@ -52,7 +55,7 @@ li, a, p{
 }
 
 .nav-links li a:hover{
-    color: blue;
+    color: black;
 }
 
 .navbar{
@@ -60,6 +63,9 @@ li, a, p{
     justify-content: space-evenly;
     align-items: center;
     border-bottom: 1px whitesmoke solid;
+}
+.navbar-logo{
+    padding-bottom: 10px;
 }
 
 .fa{
@@ -85,6 +91,9 @@ li, a, p{
 main{
     margin: 5% 15%;
 }
+.start-img{
+    border-radius: 50%;
+}
 .start-projekt-container-1{
     display: flex;
     justify-content: flex-start;
@@ -107,7 +116,7 @@ main{
     align-items: center;
     margin-right: 29%;
 }
-
+/* Footer  */
 footer{
     display: flex;
     justify-content: flex-end;
@@ -127,7 +136,7 @@ footer{
     float: right;
     margin-right: 20px;
 }
-
+/* Info */
 .about{
     display: flex;
     justify-content: space-evenly;
@@ -146,4 +155,37 @@ footer{
 }
 .info-para{
     margin-bottom: 20px;
+}
+/* Projekt */
+.projekt-container{
+    align-items: center;
+}
+
+.projekt-h1{
+    text-align: center;
+    margin-bottom: 3%;
+}
+.projekt-img-main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.projekt-img-main-para{
+    font-size: 1.3rem;
+    margin: 5%;
+    text-align: center;
+}
+.projekt-container-1{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 3% 0%;
+    text-align: center;
+}
+.projekt-container-2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 3% 0%;
+    text-align: center;
 }
