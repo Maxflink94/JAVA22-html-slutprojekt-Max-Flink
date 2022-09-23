@@ -51,12 +51,6 @@ li, a, p {
     transition: all 0.3s ease 0s;
 }
 
-/* .nav-citat {
-    font-style: italic;
-    font-size: x-large;
-    padding-right: 60px;
-} */
-
 .nav-links li a:hover {
     color: black;
 }
