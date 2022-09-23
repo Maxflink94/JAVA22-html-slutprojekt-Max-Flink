@@ -131,6 +131,10 @@ main {
 .start-img {
     border-radius: 50%;
 }
+.start-img:hover{
+    box-shadow: 0px 0px 10px whitesmoke;
+    transition: 0.6s;
+}
 
 .start-projekt-container-1 {
     display: flex;
